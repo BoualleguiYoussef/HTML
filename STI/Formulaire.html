@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="Formulaire.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Introduction</h1>
+    </div>
+    <div class="main-content">
+        <p>JavaScript est un langage de programmation utilisé par les développeurs pour concevoir des sites web interactifs.</p>
+        <h2>Formulaire d'inscription</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" placeholder="Entrez votre nom" required>
+            </div>
+            <div class="form-group">
+                <label for="surname">Prénom :</label>
+                <input type="text" id="surname" placeholder="Entrez votre prénom" required>
+            </div>
+            <div class="form-group">
+                <label for="birthdate">Date de naissance :</label>
+                <input type="date" id="birthdate" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Adresse :</label>
+                <input type="text" id="address" placeholder="Entrez votre adresse" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail :</label>
+                <input type="email" id="email" placeholder="Entrez votre e-mail" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Téléphone :</label>
+                <input type="tel" id="phone" placeholder="Entrez votre numéro de téléphone">
+            </div>
+            <div class="form-group">
+                <label for="country">Pays :</label>
+                <input type="text" id="country" placeholder="Entrez votre pays">
+            </div>
+            <div class="form-group">
+                <label for="preferred-lang">Langages préférés :</label>
+                <select id="preferred-lang">
+                    <option value="français">Français</option>
+                    <option value="anglais">Anglais</option>
+                    <option value="espagnol">Espagnol</option>
+                    <option value="allemand">Allemand</option>
+                    <option value="italien">Italien</option>
+                    <option value="portugais">Portugais</option>
+                    <option value="chinois">Chinois</option>
+                    <option value="russe">Russe</option>
+                    <option value="arabe">Arabe</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Domaines d'activité :</label><br>
+                <label for="lang1">Informatique</label><br>
+                <input type="checkbox" id="lang1" value="Informatique">
+                <label for="lang2">Gestion</label><br>
+                <input type="checkbox" id="lang2" value="Gestion">
+                <label for="lang3">Pédagogie</label>
+                <input type="checkbox" id="lang3" value="Pédagogie">
+            </div>
+            <div class="form-group">
+                <label for="level">Niveau de langue :</label>
+                <select id="level">
+                    <option value="débutant">Débutant</option>
+                    <option value="intermédiaire">Intermédiaire</option>
+                    <option value="avancé">Avancé</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="file">Choisir une image :</label>
+                <input type="file" id="file">
+            </div>
+            <div class="form-group">
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <a href="TP1.html" class="back-button">Retour à l'Introduction</a>
+    </div>
+
+</body>
+</html>
