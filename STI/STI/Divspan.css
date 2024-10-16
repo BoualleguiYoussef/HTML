@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.header {
+    text-align: center;
+    background-color: #2a9d8f;
+    color: white;
+    padding: 20px;
+}
+.header h1{
+    font-size: 2.5em;
+    margin: 0;
+}
+.header h2{
+    font-size: 2.5em;
+    margin: 0;
+}
+.main-content span {
+    text-decoration: underline;
+    color: brown;
+}
+.main-content {
+    margin: 20px;
+    padding: 20px;
+    background-color:#ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.main-content p{
+    font-size: 1.2em;
+    color: #555;
+}
+.form-group legend{
+    text-align: left;
+    font-size: 1.5em;
+    color: #264653;
+}
+.form-group p{
+    text-align: left;
+}
+.form-group a{
+    text-decoration: none;
+    color: #2a9d8f;
+}
+.form-group a:hover{
+    color: #1e6f5c;
+}
